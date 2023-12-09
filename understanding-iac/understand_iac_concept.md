@@ -45,3 +45,12 @@ IaC files are version-controlled, enabling teams to track changes, revert to pre
 With IaC, disaster recovery becomes more manageable as infrastructure setups can be quickly replicated. Additionally, it facilitates easier testing of different infrastructure configurations.
 
 Understanding these concepts is crucial when dealing with Terraform or any other Infrastructure as Code tool, as they form the foundation of automating and managing infrastructure efficiently.
+
+
+### Deploying Infrastructure with Terraform
+
+- Scope - Identify the infrastructure for your project.
+- Author - Write the configuration for your infrastructure.
+- Initialize - Install the plugins Terraform needs to manage the infrastructure.
+- Plan - Preview the changes Terraform will make to match your configuration.
+- Apply - Make the planned changes.
